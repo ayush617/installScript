@@ -232,7 +232,7 @@ case ${codename} in
       omvCodename="sandworm"
       version=7
     else
-      _log "Unsupported version.  Only Debian 10 (Buster) and 11 (Bullseye) are supported.  Exiting..."
+      _log "Unsupported version.  Only Debian 10 (Buster) and 11 (Bullseye) are supported.  Exiting...<<<<"
       exit 1
     fi
     _log "Copying /etc/resolv.conf to ${resolvTmp} ..."
@@ -240,7 +240,7 @@ case ${codename} in
     _log "$(cat /etc/resolv.conf)"
     ;;
   *)
-    _log "Unsupported version.  Only Debian 10 (Buster) and 11 (Bullseye) are supported.  Exiting..."
+    _log "Unsupported version.  Only Debian 10 (Buster) and 11 (Bullseye) are supported.  Exiting...>>>>"
     exit 1
   ;;
 esac
